@@ -1,0 +1,108 @@
+.popup-container {
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #00000080; /* Semi-transparent background overlay */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999; /* Ensure the popup appears above other content */
+  }
+
+  .buttons-container {
+    display: flex;
+    justify-content: center; /* This will center the buttons */
+    padding-top: 20px; /* Add some space between the form and the buttons */
+  }
+  
+  .view-button {
+    margin: 0 10px; /* This adds some space between your buttons */
+  }
+
+  .view-button {
+    /* background-color: rgb(11, 49, 239); */
+    background-color: #469bf6; 
+    color: white;
+  }
+
+  .popup-content table {
+    table-layout: fixed;
+    width: 100%; /* This will make the table take the full width of its container */
+    td {
+        padding: 10px; /* Adjust the padding for space within cells */
+      }
+  }
+
+  .popup-content td input[type="text"], 
+.popup-content td .editable {
+    width: 100%; /* Full width of the cell */
+    padding: 8px; /* Some padding inside the text field */
+    margin: 5px 0; /* Some space above and below the text field */
+    border: 1px solid #cccccc; /* A subtle border around the text field */
+    box-sizing: border-box; /* Include padding and border in the width */
+}
+
+/* For any editable divs that aren't using input tags */
+div[contenteditable="true"] {
+    border: 1px solid #cccccc; /* Add a border like an input field */
+    padding: 8px;
+    min-height: 20px; /* So it's visible even if empty */
+}
+
+  .popup-content td {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+  
+  /* Add space between the columns */
+  .popup-content td:first-child {
+    padding-right: 25px; /* Adjust the value for the space you want */
+  }
+  
+  .popup-content td:last-child {
+    padding-left: 25px; /* Adjust the value for the space you want */
+  }
+  
+  
+  .popup-content {
+    background-color: #fff;
+    padding: 80px;
+    border-radius: 8px;
+    color : black;
+    width: 80%; /* Increase width to a percentage of the screen size */
+    max-width: 1000px; /* Set a max-width to ensure it doesn't get too large on big screens */
+    margin: auto; /* Center it horizontally */
+    overflow-y: auto;
+    box-sizing: border-box;
+  }
+  
+  
+  /* Add any other styling you need here */
+  
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 24px;
+    color: #888;
+  }
+  
+  .two-column-data {
+    display:contents; /* Use flexbox to create a two-column layout */
+  }
+  
+  /* .left-column {
+    flex: 1;
+    padding: 5px;
+    margin-right: 50px; /* Increase margin to create more space between columns 
+  } */
+  
+ /* .right-column {
+    flex: 1;
+    padding: 100px;
+    margin-left: 50px; /* Increase margin to create more space between columns 
+  } */
+  

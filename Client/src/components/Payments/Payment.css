@@ -1,0 +1,34 @@
+/* Payments.module.css */
+/* Payment.css */
+.table-header-row {
+    background-color: #469bf6; /* Change this to the color you prefer */
+    font-weight: bold;
+    color: #fff;
+    border-right: 1px solid #ccc; /* Add a right border with your preferred color */
+    padding: 8px; /* Add padding to the cells for spacing */
+    font-size: 16px;
+  }
+  
+  .table-cell {
+    border-right: 1px solid #ccc; /* Add a right border with your preferred color */
+    padding: 8px; /* Add padding to the cells for spacing */
+  }
+  
+
+  .table-cell-header {
+    background-color: #469bf6; /* Change this to the color you prefer */
+    font-weight: bold;
+    color: #fff;
+    border-right: 1px solid #ccc; /* Add a right border with your preferred color */
+    padding: 8px; /* Add padding to the cells for spacing */
+    font-size: 16px; 
+  }
+
+  @media only screen and (max-width: 800px) {
+    .product-detail {
+      flex-direction: column;
+      align-items: center;
+      top: 20px;
+    }
+  }
+  

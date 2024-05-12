@@ -1,0 +1,19 @@
+.navbar {
+    /* background-color: rgba(73, 8, 158, 0.71);  */
+    background-color: #469bf6; 
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+  }
+  
+  .navbar-link {
+    color: #fff; /* Text color */
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+  }
+  
+  .navbar-link:hover {
+    color: #ff9900; /* Text color on hover */
+  }
+  
